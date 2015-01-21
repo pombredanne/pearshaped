@@ -11,6 +11,10 @@ TODO
  - listen for github commit hooks
  - allow the user to configure repos and branches to watch
  - support ouputting to a build monitor such as https://github.com/pivotal/projectmonitor
+ - let the user store containers for failed builds with a deletion policy
+   - by default, only store the very last build for a project
+ - provide a tool for resuming a build from a previous state with the latest repo version
+ - allow builds to produce and save artifacts
 
 Pay attention to the language
 -----------------------------
