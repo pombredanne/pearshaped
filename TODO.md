@@ -2,6 +2,7 @@ TODO
 ====
 
  - clean up intermediate containers upon a successful build
+ - correctly support building multiple repos
  - record build information and store metadata
    - start/end timestamps
    - success
