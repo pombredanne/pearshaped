@@ -10,6 +10,7 @@ TODO
    - build number
  - listen for github commit hooks
  - allow the user to configure repos and branches to watch
+ - if the install step does not change, resume from saved container
  - support ouputting to a build monitor such as https://github.com/pivotal/projectmonitor
  - let the user store containers for failed builds with a deletion policy
    - by default, only store the very last build for a project
@@ -30,30 +31,6 @@ suppress toolchain installation steps.
 Currently, the language must exactly match an image name. We should add
 support for several common toolchains.
 
-
-golang:
-
-    apt-get install -qy golang golang-go.tools
-
-ruby (rvm only):
-
-    curl -sSL https://get.rvm.io | bash -s stable
-    (install the ruby version requested in the config)
-    gem install bundler rake
-
-nodejs:
-
-    apt-get install -qy nodejs npm
-
-python:
-
-    apt-get install -qy python python-dev
-    pip install nose pytest mock wheel
-
-python3:
-
-    apt-get install -qy python3 python3-dev
-    pip3 install nose pytest mock wheel
 
 Support toolchain matrices
 --------------------------
