@@ -10,6 +10,7 @@ TODO
    - build number
  - listen for github commit hooks
  - allow the user to configure repos and branches to watch
+ - allow jobs to be cancelled and cleaned up
  - if the install step does not change, resume from saved container
  - support ouputting to a build monitor such as https://github.com/pivotal/projectmonitor
  - let the user store containers for failed builds with a deletion policy
