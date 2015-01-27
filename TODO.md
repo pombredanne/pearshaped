@@ -12,11 +12,12 @@ TODO
  - allow the user to configure repos and branches to watch
  - allow jobs to be cancelled and cleaned up
  - if the install step does not change, resume from saved container
- - support ouputting to a build monitor such as https://github.com/pivotal/projectmonitor
+ - support outputting to a build monitor such as https://github.com/pivotal/projectmonitor
  - let the user store containers for failed builds with a deletion policy
    - by default, only store the very last build for a project
  - provide a tool for resuming a build from a previous state with the latest repo version
  - allow builds to produce and save artifacts
+ - build matrices across multiple dimensions (e.g. branch, env, and toolchain version)
 
 Pay attention to the language
 -----------------------------
