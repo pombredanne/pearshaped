@@ -1,13 +1,14 @@
 TODO
 ====
 
- - clean up intermediate containers upon a successful build
- - correctly support building multiple repos
+ - clean up intermediate containers and images upon a successful build
  - record build information and store metadata
    - start/end timestamps
    - success
    - git hash
    - build number
+ - make ctrl-c work well (e.g. clean up running containers)
+ - build images at dockerhub on each commit
  - listen for github commit hooks
  - allow the user to configure repos and branches to watch
  - allow jobs to be cancelled and cleaned up
